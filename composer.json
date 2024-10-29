@@ -1,0 +1,23 @@
+{
+  "name": "vjik/php-immutable-vs-mutable-bench",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "phpbench/phpbench": "^1.3"
+  },
+  "license": "BSD-3-Clause",
+  "autoload": {
+    "psr-4": {
+      "Vjik\\PhpImmutableVsMutableBench\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sergei Predvoditelev",
+      "email": "sergei@predvoditelev.ru"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  }
+}
