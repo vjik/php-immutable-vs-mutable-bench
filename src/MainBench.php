@@ -13,8 +13,8 @@ final class MainBench
 {
     public function setUp(): void
     {
-        new MutableObject();
-        new ImmutableObject();
+        require_once __DIR__ . '/MutableObject.php';
+        require_once __DIR__ . '/ImmutableObject.php';
     }
 
     public function benchMutable1(): void
